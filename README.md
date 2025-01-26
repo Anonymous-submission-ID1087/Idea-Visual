@@ -1,6 +1,8 @@
 # Idea Visual
 This is an anonymous code and dataset release for SIGGRAPH 2025 submission "Idea Visual: Intent-Driven View Synthesis via Multimodal Diffusion Model".
 
+![Teaser](https://github.com/Anonymous-submission-ID1087/Idea-Visual/blob/main/teaser.png)
+
 ## TODO
 - [x] Benchmark.
 - [x] Models and tools.
