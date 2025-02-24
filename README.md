@@ -55,7 +55,7 @@ Idea Visual
 ```bash
 python /tools/dataAPI.py --folder_path <RGB-images-to-input> --output_file <instuctions-in-.json-format-to-output>
 ```
-3. Download the pretrained multi-view diffusion model [here](https://1drv.ms/u/c/652bf5c3ca3bdc85/EeK64dayqmxJgNqSIquzp2ABbWluSn7D_5SgXU61RnPWKw) and text/image encoder [here](https://1drv.ms/u/c/652bf5c3ca3bdc85/ETlxiz1yhitGqJlCAhIE8CYBe3SVcPUK3yCuqdPHRf5E3A).
+3. Download the pretrained multi-view diffusion model [here](https://1drv.ms/u/c/652bf5c3ca3bdc85/EeK64dayqmxJgNqSIquzp2ABbWluSn7D_5SgXU61RnPWKw) and text/image encoder [here](https://1drv.ms/u/c/652bf5c3ca3bdc85/ETlxiz1yhitGqJlCAhIE8CYBe3SVcPUK3yCuqdPHRf5E3A?e=cL6uTe).
 4. Start training:
 ```bash
 python train_IdeaVisual.py -conf configs/ideavisual.yaml -c <ckpt-dir> --ft <your multi-view diffusion model> <your text/image encoder> --gpus 0,1,2,3,4,5,6,7
